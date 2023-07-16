@@ -1,0 +1,19 @@
+.title{
+    text-align: center;
+    font-family: serif;
+    font-size: larger;
+    font-weight: 600;
+}
+body{
+    background-color:orange;
+}
+.products{
+    vertical-align: text-top;
+    border-color: black;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 250px;
+    margin-left: 20px;
+}

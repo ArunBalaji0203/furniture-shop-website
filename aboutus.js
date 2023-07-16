@@ -15,19 +15,18 @@ function carousel() {
 // let form = document.getElementById('form');
 // form.addEventListener('submit',event=>{
 //   event.preventDefault();
-
 //   let formdata=new FormData(form);
 //   let data=Object.fromEntries(formdata);
 //   let jsondata=JSON.stringify(data);
 
-//   fetch('',{
+//   fetch('https://form-api-75f69-default-rtdb.firebaseio.com',{
 //     method:'POST',
 //     headers:{
-//       "content-type":"application/json; charset:UTF-8"
+//       "content-type":"application/json"
 //     },
 //     body:jsondata
 //   })
 //   .then(res=>res.json())
-//   .then(result=>console.log(result.data))
+//   .then(jsondata=>console.log(jsondata))
 //   .catch(err=>console.log(err))
 // });
